@@ -49,7 +49,7 @@ const admin = require('./routes/admin');
 const shopRouter = require('./routes/shop');
 const authRouter = require('./routes/auth');
 const errorRouter = require('./routes/error');
-const MONGODB_URI = 'mongodb+srv://Pooja:5TfhbBfKPUgj21tx@cluster0.an98t85.mongodb.net/shop';
+const MONGODB_URI = 'Enter uri';
 const store = new MongoDBStore({
     uri: MONGODB_URI,
     collection: 'sessions'
